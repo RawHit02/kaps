@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kaps Media</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,400&family=Open+Sans:ital,wght@0,300;0,500;0,700;0,800;1,300;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,400;1,500&family=Raleway:ital,wght@0,100;0,200;0,300;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+        integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+    
+
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href=" "><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="Services.html">Services</a></li>
+                    <li><a href="Follow.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+
+        </nav>
+    <div class="text-box">
+        <h1>KAPS MEDIA</h1>
+        <p>Ready to step up your social media game? <br>At Kaps Media, we offer tailored social
+        media strategies to help our clients grow their online presence and generate leads.</p>
+       <!-- <a href="index.html"class="hero-btn">Visit To Know More</a>   -->
+    </div>
+    </section>
+
+<!-----------Footer-->
+<section class="footer">
+    <a href=""><img src="images/logo.png"></a>
+    <h3>With you in every step of your journey</h3>
+    <h2>© Copyright Kaps Media</h2>
+</section>
+
+
+    <!-----------Javascript for toggle menu -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+    
+    <a class="gotopbtn" href="#"><i class="fa-sharp fa-solid fa-arrow-up"></i></a>
+</body>
+</html>
