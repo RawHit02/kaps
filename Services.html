@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kaps Media</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,400&family=Open+Sans:ital,wght@0,300;0,500;0,700;0,800;1,300;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,400;1,500&family=Raleway:ital,wght@0,100;0,200;0,300;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+        integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href=""><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="Services.html">Services</a></li>
+                    <li><a href="Follow.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>Our Services</h1>
+            <p>When you assume negative intent, you're angry. If you take away that anger and assume positive intent, you will be amazed."</p>
+        </div>
+    </section>
+
+<!-- Services -->
+<section class="Services">
+    <h1>Services we Offer</h1>
+    <div class="row">
+        <div class="Services-col1">
+            <h3>Digital Marketing</h3>
+            <p>Done right, content marketing just be the most effective channels there is to achieve sustainable,
+                profitable growth for
+                your business. Unfortunately, most brands lack the strategy and diverse content creation resources
+                needed to accomplish
+                this on their own. After all, there's plenty more to do! Luckily, our team of content strategists &
+                creatives is here to
+                help.</p>
+            <div class="Pictures-col1">
+                <img src="images/digital marketing.png">
+                <div class="layer">
+                    <h3 style="color:#fefefe;">Marketing</h3>
+                </div>
+            </div>
+        </div>
+        <div class="Services-col2">
+            <h3>Social Media Marketing</h3>
+            <p>We offer full-service social media management services. So, we transform your social media presence with
+                high-quality
+                content, daily activity, monitoring-engagement and increased followers. This service will attract
+                targeted followers to
+                then convert into loyal customers while telling your brand's story throughout.</p>
+            <div class="Pictures-col2">
+                <img src="images/social.png">
+                <div class="layer">
+                    <h3 style="color:#fefefe;">Social</h3>
+                </div>
+            </div>
+        </div>
+        <div class="Services-col3">
+            <h3>Web Application Development</h3>
+            <p>Across industries, business models, and company sizes, one thing remains true. Companies that invest
+                deeply in their
+                content marketing engine acquire new customers consistently, increase customer satisfaction, and build
+                unmatched
+                customer loyalty. With a strategic combination of content designed to increase traffic to your website,
+                convert those
+                visitors into leads, and help you retain existing customers - we can turn your content market presence
+                into a
+                significant competitive advantage. Our team of experts can build on whatever foundation you've built so
+                far, and
+                supercharge your organic growth.</p>
+            <div class="Pictures-col3">
+                <img src="images/web app.png">
+                <div class="layer">
+                    <h3 style="color:#fefefe;">Web-App </h3>
+                </div>
+            </div>
+        </div>
+        <div class="Services-col4">
+            <h3></h3>
+            <p> Look - we get it. There's a lot of noise in the world of SEO. Between the people who have absolutely no idea what
+                they're talking about, the PBNs, spammy link building, and more, it's gotten a bad wrap.
+                We're not here for that. If you want clean, scalable SEO that can help you grow your organic traffic profitably, you've
+                come to the right place.</p>
+            <div class="Pictures-col4">
+                <img src="images/seo.jpg">
+                <div class="layer">
+                    <h3 style="color:#fefefe;">Search Engine opti.. </h3>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-----------Footer-->
+<section class="footer">
+    <a href=" "><img src="images/logo.png"></a>
+    <h3>With you in every step of your journey</h3>
+    <h2>© Copyright Kaps Media</h2>
+</section>
+
+
+    <!-----------Javascript for toggle menu -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
