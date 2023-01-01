@@ -897,6 +897,7 @@ html{
         align-items:center;
         justify-content:center;
         opacity:0;
+        margin: 20px 110px;
         transition:0.5s;
     }
     .layer:hover h3{
